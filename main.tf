@@ -1,4 +1,4 @@
-resource "random_password" "password" {
+resource "random_password" "general" {
   length = var.length
   special = var.special
   override_special = var.override_special
